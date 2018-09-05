@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: f8d5e2c9a8d6cca43a5eb78d207ebab5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_cuphead-sheet0_1
+    21300002: player_cuphead-sheet0_2
+    21300004: player_cuphead-sheet0_3
+    21300006: player_cuphead-sheet0_4
+    21300008: player_cuphead-sheet0_5
+    21300010: player_cuphead-sheet0_6
+    21300012: player_cuphead-sheet0_8
+    21300014: player_cuphead-sheet0_10
+    21300016: player_cuphead-sheet0_12
+    21300018: player_cuphead-sheet0_13
+    21300020: player_cuphead-sheet0_14
+    21300022: player_cuphead-sheet0_15
+    21300024: player_cuphead-sheet0_16
+    21300026: player_cuphead-sheet0_17
+    21300028: player_cuphead-sheet0_18
+    21300030: player_cuphead-sheet0_20
+    21300032: player_cuphead-sheet0_21
+    21300034: player_cuphead-sheet0_23
+    21300036: player_cuphead-sheet0_24
+    21300038: player_cuphead-sheet0_25
+    21300040: player_cuphead-sheet0_26
+    21300042: player_cuphead-sheet0_27
+    21300044: player_cuphead-sheet0_28
+    21300046: player_cuphead-sheet0_29
+    21300048: player_cuphead-sheet0_30
+    21300050: player_cuphead-sheet0_31
+    21300052: player_cuphead-sheet0_32
+    21300054: player_cuphead-sheet0_33
+    21300056: player_cuphead-sheet0_34
+    21300058: player_cuphead-sheet0_35
+    21300060: player_cuphead-sheet0_36
+    21300062: player_cuphead-sheet0_37
+    21300064: player_cuphead-sheet0_38
+    21300066: player_cuphead-sheet0_39
+    21300068: player_cuphead-sheet0_40
+    21300070: player_cuphead-sheet0_41
+    21300072: player_cuphead-sheet0_42
+    21300074: player_cuphead-sheet0_43
+    21300076: player_cuphead-sheet0_44
+    21300078: player_cuphead-sheet0_45
+    21300080: player_cuphead-sheet0_0
+    21300082: player_cuphead-sheet0_7
+    21300084: player_cuphead-sheet0_9
+    21300086: player_cuphead-sheet0_11
+    21300088: player_cuphead-sheet0_19
+    21300090: player_cuphead-sheet0_22
+    21300092: player_cuphead-sheet0_46
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 912
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ef9b9f8f2bb64aae3f4a1204e90c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 820
+        width: 122
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb25916b335d88a47a2476923fbfb4a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 824
+        width: 123
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e117c521b28f641ac2b14cf2245271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 827
+        width: 115
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe32da8a89ac600438d6f35dde818ae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 826
+        width: 140
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434ac8b687fcd34ea022fc2a32cca9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_5
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 872
+        width: 158
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0523276721a2440a4bf3b080e71724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 851
+        width: 121
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789ff9e9e2719ef4089e6d2a1a2d827a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 733
+        width: 201
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf0cc2e08f0e1a41b8f8deb0bdd5dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_10
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 685
+        width: 98
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d44b57e1362b7149a91261e2b9adc3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 668
+        width: 96
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed892b0358fc23b479054565e37062e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 670
+        width: 95
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d268a74207334da98cac0df37f976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 670
+        width: 97
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb719d1df6444634b832b00c0f159fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 670
+        width: 100
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e2f68c77a97f49a16685a7e3555b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 577
+        width: 97
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4a6859adcf7b409362b40e196f7f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 532
+        width: 95
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64adfeb17230ba4a9c78121bedafc41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 546
+        width: 81
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5382bf118985a0e4aa6748eb531836dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 539
+        width: 77
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd4fc23d3e776449a89f43ff1dd6628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 539
+        width: 78
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ce895b6dc2e3744aa8e5f6eaffabd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 538
+        width: 80
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edad2d4e662b2e42ad7ab32e0a925b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_24
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 556
+        width: 78
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26d52bd90207464e8a1b215d3f0f19a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 375
+        width: 118
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ec8993389bfe45af9dd532db5670f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 368
+        width: 126
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932696b9667519a429e7fef15dd78ab5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 384
+        width: 110
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb6b761b969304aaf779788831ffeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_28
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 384
+        width: 130
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c98e8e9a6229a40bccafa2a05e3dc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_29
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 443
+        width: 76
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e898bff224ea224b9465e4a3d08c295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_30
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 394
+        width: 88
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d964adc6e38c438b6b6d834558735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 396
+        width: 88
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea58878dcd33d4db6251a368584e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 136
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd5ec4bdb43bd9419ca15e60b417d88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 131
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6b3de9fccaf754a8c47fd1c2614dd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_34
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 214
+        width: 127
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f978b0ee81eb4cbd3a8f41afd9d1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_35
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 283
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ec79ac9000e3a4a9781674977f7079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_36
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 214
+        width: 137
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57be44b9acb98dd4d831d273235f645e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_37
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 273
+        width: 119
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b975d9f7016d6d4f88369048ea37808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_38
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 239
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e61abbf46ec714ea7af4d0e0edb850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_39
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 229
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45ad85fa56d0794693d1d3087538bf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 130
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc0638b2e71dc34683140c7083ae5ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 110
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddb6281c5d283947bff1f1f25657932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 62
+        width: 113
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9dd7299a7d4244b7d092754c58a3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_43
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 62
+        width: 129
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab119fbfa8d22534fa202119baf72283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 120
+        width: 122
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff0325b73e894b48aef906a0caf3f29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_45
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 77
+        width: 112
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a2036fbc46f940b278ae2c8443d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_cuphead-sheet0_46
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 76
+        width: 112
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab91104dda3e3804a9b6e39cab0dbd7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: af3de44b191b09e49a487ba4c4e7c7d8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

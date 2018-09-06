@@ -1,67 +1,98 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public float _moveSpeed;
     public float _jumpSpeed;
+    public float _parrySpeed;
+    public Transform _groundCheck;
+    public LayerMask _whatIsGround;
+    public LayerMask _whatIsParry;
+
+
     private Rigidbody2D _rigidbody;
     private Animator _animator;
-	// Use this for initialization
-	void Awake ()
+    private bool _facingRight = true;
+    private bool _isGround = false;
+    private bool _isParry = false;
+    private float _groundRadius = 0.2f;
+    private float _parryRadius = 0.3f;
+
+
+
+    // Use this for initialization
+    void Awake ()
 	{
 	    _rigidbody = GetComponent<Rigidbody2D>();
 	    _animator = GetComponent<Animator>();
 
 	}
 
+    void FixedUpdate()
+    {
+        _isGround = Physics2D.OverlapCircle(_groundCheck.position, _groundRadius, _whatIsGround);
+        _isParry = Physics2D.OverlapCircle(_groundCheck.position, _parryRadius, _whatIsParry);
+        _animator.SetBool("IsGround" , _isGround);
+
+        float move = Input.GetAxis("Horizontal");
+
+        _animator.SetFloat("Speed" , Mathf.Abs(move));
+
+        _rigidbody.velocity = new Vector2(move * _moveSpeed , _rigidbody.velocity.y);
+
+        if (move > 0 && !_facingRight)
+            Flip();
+        else if(move < 0 && _facingRight)
+            Flip();
+    }
+
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
-        {
-            Move(-1);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            Move(1);
-        }
-
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            StopMove();
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            StopMove();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (_isGround && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
         }
+
+        if ((!_isGround || _isParry) && Input.GetMouseButtonDown(0))
+        {
+            Parry();
+        }
     }
 
-
-
-
-
-    private void Move(int dir)
+    /// <summary>
+    /// 转头
+    /// </summary>
+    private void Flip()
     {
-        transform.localScale = new Vector3(dir , 1 , 1);
-        _rigidbody.velocity = new Vector2(dir * _moveSpeed , _rigidbody.velocity.y);
-        _animator.SetBool("IsWalk" , true);
+        _facingRight = !_facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
-    private void StopMove()
-    {
-        _rigidbody.velocity = new Vector2(0 , _rigidbody.velocity.y);
-        _animator.SetBool("IsWalk", false);
-    }
-
+    /// <summary>
+    /// 跳跃
+    /// </summary>
     private void Jump()
     {
         _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _jumpSpeed);
         _animator.SetTrigger("IsJump");
+    }
+
+    /// <summary>
+    /// Parry
+    /// </summary>
+    private void Parry()
+    {
+        _animator.SetTrigger("IsParry");
+        if (_isParry)
+        {
+            OnParry();
+        }
+    }
+
+    void OnParry()
+    {
+        _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _parrySpeed);
     }
 }

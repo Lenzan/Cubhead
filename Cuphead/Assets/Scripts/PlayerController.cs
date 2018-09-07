@@ -15,13 +15,14 @@ public class PlayerController : MonoBehaviour
     public float _moveSpeed;
     public float _jumpSpeed;
     public float _parrySpeed;
+    public float _fastMoveSpeed;
     public float rate = 0.1f;
     public Transform _groundCheck;
     public GameObject _bulletPrefab;
     public LayerMask _whatIsGround;
     public LayerMask _whatIsParry;
     public Transform _firePos;
-    public Rotation rotation;
+    public Rotation _rotation;
 
 
     private Rigidbody2D _rigidbody;
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private bool _isParrying = false;
     private float _groundRadius = 0.2f;
     private float _parryRadius = 0.2f;
-
+    private float move;
 
 
     // Use this for initialization
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
         if(_isParrying)
             return;
 
-        float move = Input.GetAxis("Horizontal");
+        move = Input.GetAxis("Horizontal");
 
         _animator.SetFloat("Speed" , Mathf.Abs(move));
 
@@ -88,6 +89,12 @@ public class PlayerController : MonoBehaviour
         {
            StopFire();
         }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            if (Mathf.Abs(move) > 0 || !_isGround)
+                FastMove();
+        }
     }
 
     /// <summary>
@@ -95,11 +102,12 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void Flip(float move)
     {
-        rotation = move > 0 ? Rotation.Right : Rotation.Left;
+        _rotation = move > 0 ? Rotation.Right : Rotation.Left;
         _facingRight = !_facingRight;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+        _fastMoveSpeed *= -1;
     }
 
     /// <summary>
@@ -133,7 +141,7 @@ public class PlayerController : MonoBehaviour
         {
             time = 0;
             StartFire();
-            switch (rotation)
+            switch (_rotation)
             {
                 case Rotation.Right:
                     _firePos.eulerAngles = new Vector3(0, 0, 0);
@@ -181,5 +189,12 @@ public class PlayerController : MonoBehaviour
             _fireAnimator.SetBool("Shoot", false);
         }
         _animator.SetBool("IsFire", false);
+    }
+
+
+    void FastMove()
+    {
+        _rigidbody.AddForce(new Vector2(_fastMoveSpeed , 0));
+        _animator.SetTrigger("IsFastMove" );
     }
 }
